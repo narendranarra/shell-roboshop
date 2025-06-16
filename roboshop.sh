@@ -1,7 +1,7 @@
 #!/bin/bash
 
 AMI_ID="ami-09c813fb71547fc4f"
-SG_ID="ssg-048e7bc75a9c9b2c0" # replace with your SG ID
+SG_ID="sg-048e7bc75a9c9b2c0" # replace with your SG ID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
 ZONE_ID="Z04446181QZWMSEOCZUNK" # replace with your ZONE ID
 DOMAIN_NAME="narendrablog.shop" # replace with your domain
